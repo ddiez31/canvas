@@ -15,10 +15,10 @@ window.onload = function initCanvas() {
     context.lineTo("0", "275");
     context.moveTo("-15", "275");
     context.lineTo("10", "80");
-    context.closePath();
     context.lineWidth = 3;
     context.strokeStyle = "#FAD60A";
     context.stroke();
+    context.closePath();
 
     /* ligne rouge */
     context.beginPath();
@@ -33,14 +33,15 @@ window.onload = function initCanvas() {
     context.lineTo("0", "290");
     context.moveTo("-5", "290");
     context.lineTo("0", "95");
-    context.closePath();
     context.lineWidth = 3;
     context.strokeStyle = "#E90047";
     context.stroke();
+    context.closePath();
 
     /* texte SIMPLON */
     context.beginPath();
     context.font = "82px Sans serif";
+
     context.fillText("SIMPL   N", 10, 200);
     context.closePath();
 

@@ -1,5 +1,20 @@
-/* #myCanvas {
+/* integration image 
+
+#myCanvas {
     background-image: url('../logosimplon.png');
     background-repeat: no-repeat;
     background-size: 80%;
-} */
+} 
+
+*/
+
+
+/* police spéciale
+
+@font-face {
+    font-family: 'champagne_limousines';
+    src: url('../font/champagne_limousines.woff2') format('woff2'), url('../font/champagne_limousines.woff') format('woff'), url('../font/champagne_limousines.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
