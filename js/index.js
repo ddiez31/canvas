@@ -40,16 +40,20 @@ window.onload = function initCanvas() {
 
     /* texte SIMPLON */
     context.beginPath();
-    context.font = "82px Sans serif";
-
-    context.fillText("SIMPL   N", 10, 200);
+    context.font = "bold 84px champagne_limousines";
+    context.fillText("S", 10, 200);
+    context.fillText("I", 60, 200);
+    context.fillText("M", 90, 200);
+    context.fillText("P", 170, 200);
+    context.fillText("L", 220, 200);
+    context.fillText("N", 335, 200);
     context.closePath();
 
     /* texte Occitanie */
     context.beginPath();
     context.fillStyle = "#E90047";
-    context.font = "60px Sans serif";
-    context.fillText("Occitanie", 110, 265);
+    context.font = "bold 68px champagne_limousines";
+    context.fillText("Occitanie", 130, 265);
     context.closePath();
 
     /* cercle */
